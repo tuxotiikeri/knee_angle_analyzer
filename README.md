@@ -6,6 +6,8 @@ Tämä Python-skripti analysoi videoita, joissa kuvataan alaraajojen liikettä. 
 
 Scriptin tarkoitus on auttaa tekemään objektiivinen arvio polven frontaalitason kulmasta, mutta se ei ole välttämättä luotettava referenssi muiden laitteiden validointiin. 
 
+Testivideon sovelluksen toiminnan testaamiseen voi ladata osoitteesta: https://drive.google.com/file/d/1NIroaWKDRJ5kmWoNMYjj9u4jEiMBIQO2/view?usp=drive_link
+
 ## Ohjelman toiminta
 1. Videoanalyysi: Ohjelma lukee syöte-videon ja analysoi sen ruutu kerrallaan. 
 2. MediaPipe-tunnistus: MediaPipe Pose tunnistaa lonkan, polven ja nilkan nivelpisteet ja tuottaa näiden koordinaatit (x, y).
@@ -30,9 +32,7 @@ pip install numpy pandas opencv-python-headless mediapipe scipy
 
 Käyttäjän muokattavat asetukset: Koodin alussa on osio, jossa voit muuttaa seuraavia asetuksia:
 
-======= KÄYTTÄJÄN MUOKATTAVAT ASETUKSET =======
-
-Koodin alussa on osio, jossa voit muuttaa seuraavia asetuksia omien tarpeidesi mukaan:
+## Käyttäjän asettaman muuttujat
 
 Koodin alussa on osio, jossa voit muuttaa seuraavia asetuksia omien tarpeidesi mukaan:
 
