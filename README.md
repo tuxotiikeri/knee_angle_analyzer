@@ -30,8 +30,6 @@ Varmista, että seuraavat kirjastot on asennettu Python 3.9 -versiossa tai uudem
 Lataa ja asenna tarvittavat kirjastot komennolla:
 pip install numpy pandas opencv-python-headless mediapipe scipy
 
-Käyttäjän muokattavat asetukset: Koodin alussa on osio, jossa voit muuttaa seuraavia asetuksia:
-
 ## Käyttäjän asettaman muuttujat
 
 Koodin alussa on osio, jossa voit muuttaa seuraavia asetuksia omien tarpeidesi mukaan:
